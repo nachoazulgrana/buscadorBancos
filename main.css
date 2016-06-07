@@ -1,0 +1,281 @@
+ul, li, div, figure, nav, section, header, body, p, h2 {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+button:focus {outline:0;}
+
+h2 {
+	font-weight: 200;
+}
+
+ul {
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;	
+}
+
+li {
+	list-style-type: none;
+}
+
+p {
+	margin: .2rem;
+}
+
+.back {
+	background-image: url('img/image.jpg');
+}
+
+.subrayado {
+	text-decoration: underline;
+}
+
+.nombreSuc {
+	padding-top: .5rem;
+	font-size: 1.5rem;
+	margin-left: 1rem;
+	color: #2980b9;
+	font-weight: 300;
+	text-align: left;
+}
+
+.tituloSucursal {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2980b9+0,2980b9+41,faf7fc+93 */
+background: rgb(41,128,185); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(41,128,185,1) 0%, rgba(41,128,185,1) 41%, rgba(250,247,252,1) 93%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(41,128,185,1) 0%,rgba(41,128,185,1) 41%,rgba(250,247,252,1) 93%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(41,128,185,1) 0%,rgba(41,128,185,1) 41%,rgba(250,247,252,1) 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2980b9', endColorstr='#faf7fc',GradientType=0 ); /* IE6-9 */
+
+
+	width: 30vw;
+	border-radius: 2rem;
+	height: 35vh;
+	margin-bottom: 3.5rem;
+}
+
+.buscador {
+	width: 70vw;
+	margin: 1rem 2.5vw 2.5rem 1.5vw;
+	height: 50px;
+	font-size: 2rem;
+	padding: 0 1rem;
+	box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+}
+
+textarea:focus, input:focus {
+    outline: 4px solid orange;
+}
+
+input, select, textarea{
+    color: #000;
+}
+
+.btn {
+	background: #29b664;
+	color: white;
+	padding: .5rem;
+	border: none;
+	border-radius: 1rem;
+	align-self: flex-end;
+	cursor: pointer;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.imgbind {
+	padding-top: 1rem;
+	height: 2.5rem;
+	
+}
+
+.corresponde,
+.codigoputty {
+	text-align: left;
+	margin-left: 20px;
+}
+
+.corresponde {
+	margin-top: .5rem;
+}
+
+.motivo {
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	font-size: 1.5rem;
+	height: 40px;
+	width: 60px;
+	padding: .2rem;
+	background: #2980b9;
+	color: white;
+	align-items: center;
+	border-radius: .2rem;
+	padding-left: .6rem;
+}
+
+.causa {
+	text-align: left;
+	font-size: 1.5rem;
+	margin-left: 20px;
+	color: #F44336;
+	font-weight: 300;
+}
+
+.tabRecha {
+
+	background-color: white;
+	color: #2c3e50;
+	width: 30vw;
+	height: auto;
+	border-radius: .5rem;
+	margin-bottom: 2.5rem;
+	box-shadow: 0px 20px 50px rgba(0,0,0,0.5);
+}
+
+.segundaPres {
+	font-size: .7rem;
+}
+
+.alignright {
+	bottom: 0;
+	text-align: right;
+	margin-right: .2rem;
+	margin-top: .5rem;
+}
+
+.botonCambioSuc {
+	background: #e67e22;
+	width: 60px;
+	
+	border: 3px solid lightgrey;
+	position: fixed;
+	margin-top: 1vh;
+	margin-left: 79vw;
+	padding: .85rem;
+	
+	border-radius: 50%;
+	
+	height: 60px;
+	cursor: pointer;
+	box-shadow: 0px 8px 35px rgba(0,0,0,0.7);	
+}
+
+.botonCambioRech {
+	background: #e67e22;
+	width: 60px;
+	
+	border: 3px solid lightgrey;
+	position: fixed;
+	margin-top: 1vh;
+	margin-left: 85vw;
+	padding: .85rem;
+	
+	border-radius: 50%;
+	
+	height: 60px;
+	cursor: pointer;
+	box-shadow: 0px 8px 35px rgba(0,0,0,0.7);	
+}
+
+
+
+.botonCambioBco {
+	background: #e67e22;
+	width: 60px;
+	
+	border: 3px solid lightgrey;
+	position: fixed;
+	margin-top: 1vh;
+	margin-left: 91vw;
+	padding: .85rem;
+	
+	border-radius: 50%;
+	
+	height: 60px;
+	cursor: pointer;
+	box-shadow: 0px 8px 35px rgba(0,0,0,0.7);	
+}
+
+
+	
+.botonCambioTexto {
+	color: white;
+	text-align: center;
+	font-size: 1rem;
+	margin-top: 8px;
+}
+
+.nombreDeBanco {
+	font-weight: 700;
+	color: rgba(180,180,180,1);
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.volverArriba {
+	position: fixed;
+	width: 40px;
+	height: 25px;
+	margin-left: 94vw;
+	margin-top: 92vh;
+	font-size: 2rem;
+	padding: .5rem;
+	background-color: #e67e22;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	opacity: 0.6;
+	display: none;
+}
+
+.volverArriba:hover {
+	opacity: 1;
+}
+
+
+@media (max-width: 480px) {
+  .tabRecha {
+  	background-color: white;
+  	color: #2c3e50;
+  	width: 90vw;
+  	height: auto;
+  	border-radius: .5rem;
+  	margin-bottom: .9rem;
+  }
+
+  .botonCambioSuc {
+  	width: 20px;
+	margin-left: 65vw;
+  	height: 20px;
+   }
+
+  .botonCambioRech {
+  	width: 20px;
+	height: 20px;
+	margin-left: 75vw;
+  }
+
+  .botonCambioBco {
+  	width: 20px;
+	height: 20px;
+	margin-left: 85vw;
+  }
+
+  .botonCambioTexto {
+	color: white;
+	text-align: left;
+	font-size: .7rem;
+	margin-top: -8px;
+	margin-left: -8px;
+
+  }
+}
