@@ -24,7 +24,8 @@
 	        <a href="#!" class="brand-logo hide-on-med-and-down"><img src="img/bind-logo.png" alt="" style="margin-left: .5rem; margin-top: -10px"></a>
 
 	        <ul class="right">
-	          <li><a href="index.html">Códigos de Rechazos</a></li>
+	          <li><a href="index.html">Buscar Sucursales</a></li>
+	          <li><a href="motivos.html">Códigos de Rechazos</a></li>
 	          <li><a href="bancos.html" style="background-color:rgba(200,200,200,0.4")>Buscar Bancos</a></li>
 	        </ul>
 	        
@@ -36,6 +37,8 @@
 	<a href="motivos.html"><div class="botonCambioRech"><p class="botonCambioTexto">Buscar Recha</p></div></a>
 	<a href="bancos.html"><div class="botonCambioBco"><p class="botonCambioTexto">Buscar Bancos</p></div></a>
 	<div class="volverArriba">^</div>-->
+
+
 
 	<div ng-controller="datosBanco" class="back" id="top"> 
 	
@@ -49,6 +52,13 @@
 				<p class="motivo">{{ dato.numero }}</p>
 				<h2 class="nombreDeBanco">{{ dato.banco }}</h2>
 				<p class="contactos"></p>
+						<form action="https://formspree.io/nacholugano@gmail.com"
+      method="POST">
+	    <input type="text" name="name" placeholder="Deja tu mensaje">
+	    <input type="email" name="_replyto" placeholder="Ingresa tu e-mail">
+	    <input type="hidden" name="_cc" value="iiannella@bancoindustrial.com.ar,nacho.iann@hotmail.com" />
+	    <input type="submit" value="Send">
+	</form>
 
 			</section>
 		</ul>
