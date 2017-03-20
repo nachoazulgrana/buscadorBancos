@@ -221,6 +221,10 @@ input, select, textarea{
 	margin-top: 1rem;
 }
 
+#contactos {
+	display: none;
+}
+
 .volverArriba {
 	position: fixed;
 	width: 40px;
@@ -234,7 +238,6 @@ input, select, textarea{
 	text-align: center;
 	cursor: pointer;
 	opacity: 0.6;
-	display: none;
 }
 
 .volverArriba:hover {
